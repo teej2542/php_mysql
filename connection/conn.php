@@ -9,6 +9,6 @@ $dbhandle = mysql_connect($hostname, $username, $password)
 //echo "Connected to MySQL<br>";
 
 //select a database to work with
-$selected = mysql_select_db("mydb81",$dbhandle) 
+$selected = mysql_select_db("",$dbhandle) 
   or die("Could not select examples");
 ?>
